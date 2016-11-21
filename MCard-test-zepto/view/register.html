@@ -1,0 +1,38 @@
+<div class="register" ng-controller="registerCtrl">
+    <div class="userport">
+        <div><img src="img/logo.png"></div>
+    </div>
+    <div class="reg-log">
+        <span class="sp-log active">登录</span>
+        <span class="sp-reg">注册</span>
+    </div>
+    <ul class="reg-list">
+        <li>
+            <!--注册-->
+            <div class="reg-info">
+                <div class="send-code"><input type="button" value="发送验证码" id="send-code"></div>
+                <span class="remi-info">手机号</span><input type="text" value="" class="inp-padd">
+                <hr>
+                <span class="remi-info">验证码</span><input type="text" value="" class="inp-padd">
+                <hr>
+                <span class="remi-info">密码</span><input type="password" value="" class="inp-padd">
+                <hr>
+                <label class="agree"><input type="checkbox" id="agree-proto"><span>请阅读并同意<a href="javascript:">微名片用户协议</a></span></label>
+                <p class="pw-null">密码不能为空!</p>
+                <input type="button" value="注册" id="but-reg" class="but-reg">
+            </div>
+        </li>
+        <li>
+            <!--登陆-->
+            <div class="login-info">
+                <span class="remi-info">手机号</span><input type="text" value="" class="inp-padd">
+                <hr>
+                <span class="remi-info">密码</span><input type="password" value="" class="inp-padd">
+                <hr>
+                <a href="#/findpwback"><p class="forget-pw">忘记密码</p></a>
+                <p class="pw-null">密码不能为空!</p>
+                <input type="button" value="登录" id="but-log" class="but-log">
+            </div>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html  lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <link href="css/lib/swiper-3.3.1.min.css" rel="stylesheet" />
+    <script src="js/lib/rem.js"></script> 
+	<script src="js/lib/swiper.min.js" type="text/javascript"></script>
+    <style type="text/css">
+		*{ margin:0; padding:0;  box-sizing: border-box; -webkit-box-sizing: border-box;}
+		html, body { height:100%;font-size:12px; -webkit-text-size-adjust:none;overflow: hidden;}
+    </style>
+</head>
+<body>
+
+<!-- container -->
+
+<div class="container" style=" position: absolute;top: 0;left: 0;width: 100%;height: 100%; ">
+ 
+    <div class="swiper-container" style=" position: absolute;top: 0;left: 0;width: 100%;height: 100%;  text-align: center; ">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide page1" style="background: #FF3333;">1</div>
+            <div class="swiper-slide page2" style="background: #F7AB00;">2</div>
+            <div class="swiper-slide page3" style="background: #FF6F91;">3</div>
+            <div class="swiper-slide page4" style="background: #386CCB;">4</div>
+            <div class="swiper-slide page5" style="background: #f33;">5</div>
+            <div class="swiper-slide page6" style="background: #F7AB00;">6</div>
+            <div class="swiper-slide page7" style="background: #FF6F91;">7</div>
+            <div class="swiper-slide page8" style="background: #386CCB;">8</div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+</div>
+
+<script type="text/javascript">
+	var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'vertical',
+    loop: true
+})
+</script>
+</body>
+</html>
