@@ -1,0 +1,2787 @@
+.home{
+    width: 100%;
+    height: 100%;
+}
+
+.userinfo{
+    width: 4.2rem;
+    height:4.2rem;
+    background: #f7ab00;
+    position: absolute;
+    left:2.14rem;
+    top:3.45rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 0.74rem;
+    padding-top: 1rem;
+}
+.userimg{
+    width: 2.12rem;
+    height: 2.12rem;
+    position: absolute;
+    left:0.65rem;
+    top:4.4rem;
+    overflow: hidden;
+}
+
+.userimg img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.username{
+    width: 3.20rem;
+    font-size: 22px;
+    font-weight: bold;
+}
+.position{
+    font-size: 14px;
+    line-height: 46px;
+    color: #333;
+}
+
+footer{
+    width: 100%;
+    height: 1.56rem;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    right: 0;
+}
+.myCard{
+    width: 0.9rem;
+    height:0.9rem ;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 0.4rem;
+    margin-top: 0.30rem;
+    overflow: hidden;
+
+}
+.myCard img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.mengC{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: 99;
+    background: rgba(40,40,50,.7);
+    display: none;
+}
+
+.all-list{
+    position: absolute;
+    right:0.3rem;
+    bottom: 1.26rem;
+    overflow: hidden;
+    width: 110px;
+    display: none;
+    z-index: 100;
+}
+.all-list span{
+    display: inline-block;
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-top: 5px;
+    color: #fff;
+    background: #f00;
+    border-radius: 16px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+}
+.all-list i{
+    float: right;
+
+}
+.all-list li{
+    height: 40px;
+    margin-bottom: 0.28rem;
+}
+.aftClick{
+    width: 250px;
+    height: 100%;
+    background: #282832;
+    position: absolute;
+    left: -250px;
+    top:0;
+    z-index: 999;
+
+}
+
+.nameInfo{
+    margin: 1rem 0;
+    width: 100%;
+    height: 52px;
+    font-size: 22px;
+    line-height: 52px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.JacName{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left:26px;
+    top:0;
+}
+.JacName img{
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+
+.cardList{
+    width: 100%;
+    overflow: hidden;
+}
+.cardList li{
+    text-indent: 64px;
+    width: 100%;
+    height: 0.8rem;
+    font-size: 14px;
+    line-height: 0.8rem;
+    color: #fff;
+    position: relative;
+}
+
+.cardList li i{
+    position: absolute;
+    left:0.56rem;
+    top:0.2rem;
+}
+
+.sett-footer{
+   /* text-indent: 34px;*/
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    left:0;
+    bottom: 32px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+.sett-footer span{
+    width: 50%;
+    float: left;
+    display: inline-block;
+    text-indent: 56px;
+    height: 100%;
+    position: relative;
+}
+.sett-footer span i{
+    position: absolute;
+    left:0.54rem;
+    bottom:0;
+}
+/*---------------------------------------------------------css sprite-------------------------------------------------------------*/
+
+.reg{height:14px;width:14px;background-position:0 0;}
+.personal{height:19px;width:14px;background-position:-14px 0;}
+.company{height:20px;width:15px;background-position:-28px 0;}
+.V{height:17px;width:16px;background-position:-43px 0;}
+.packup{height:9px;width:16px;background-position:-59px 0;    position: absolute;left: 0;right: 0;margin: auto;display: none;}
+.leftswi{height:16px;width:16px;background-position:-75px 0;position: absolute;  right: 0;  top: 50%;}
+.search{height:16px;width:16px;background-position:-91px 0;position: absolute;  left: 0.24rem;  top: 0.14rem;}
+.rightswi{height:16px;width:16px;background-position:-107px 0;}
+.alpha{height:16px;width:16px;background-position:-123px 0;position: absolute;  right: 0;  top: 0.14rem;}
+.choosedic{height:16px;width:16px;background-position:-139px 0;position: absolute;left: 0.3rem;}
+.chooseic{height:16px;width:16px;background-position:-155px 0;    position: absolute;left: 0.3rem;display: none;}
+.emptel{height:19px;width:19px;background-position:-171px 0;    position: absolute;margin:auto;right: 0; top: 0; bottom: 0;}
+.telp{height:19px;width:19px;background-position:-190px 0;position: absolute;  right: 0.52rem;  top: 0;}
+.upicon{height:20px;width:20px;background-position:-209px 0;}
+.lsjl{height:20px;width:20px;background-position:-229px 0;}
+.enpcardic{height:20px;width:20px;background-position:-249px 0;}
+.emplist{height:20px;width:20px;background-position:-269px 0;}
+.delicon{height:20px;width:20px;background-position:-289px 0;position: absolute;  right: -10px;  top: -10px;}
+.addicon{height:20px;width:20px;background-position:-309px 0;position: absolute;left:0;right: 0;top:0;bottom: 0;     margin: auto;  }
+.VIP{height:13px;width:20px;background-position:-329px 0;}
+.xtxx{height:21px;width:21px;background-position:-349px 0;}
+.zhqh{height:21px;width:21px;background-position:-370px 0;}
+.wdwmp{height:21px;width:21px;background-position:-391px 0;}
+.spk{height:21px;width:21px;background-position:-412px 0;}
+.sett{height:21px;width:21px;background-position:-433px 0;}
+.wdy{height:21px;width:21px;background-position:-454px 0;}
+.mpj{height:21px;width:21px;background-position:-475px 0;}
+.lsll{height:21px;width:21px;background-position:-496px 0;}
+.mc_03{height:21px;width:21px;background-position:-517px 0;position: absolute;top:0.26rem;left:15px}
+.mc_06{height:21px;width:21px;background-position:-538px 0;position: absolute;top:0.26rem;left:15px}
+.jinpai_03{height:21px;width:21px;background-position:-559px 0;}
+.my{height:21px;width:21px;background-position:-580px 0;position: absolute;right:0.60rem;top:0.3rem;}
+.pagelogo{height:25px;width:22px;background-position:-601px 0; position: absolute;left: 0;right: 0;margin: auto;}
+.change{height:40px;width:40px;background-position:-623px 0;}
+.wei{height:40px;width:40px;background-position:-663px 0;}
+.shou{height:40px;width:40px;background-position:-703px 0;}
+.all{height:40px;width:40px;background-position:-743px 0;position: absolute;right:0.3rem;bottom:0.38rem;z-index: 98}
+.tel{height:40px;width:40px;background-position:-783px 0;}
+.com-telp{height:42px;width:42px;background-position:-823px 0;position: absolute;left: 2.96rem;bottom: 0.76rem}
+.mcp_03{height:65px;width:65px;background-position:-865px 0;position: absolute;left:0;right:0;margin:auto;bottom: 0.05rem;}
+
+
+
+/*---------------------------------------------------------css sprite over---------------------------------------------------------*/
+
+/*---------------------------------------------------------register-----------------------------------------------------------------*/
+.register{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #282832;
+}
+.userport{
+    width: 100%;
+    height: 3.30rem;
+    padding-top: 1.40rem;
+    padding-left: 2.36rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.userport img{
+    display: block;
+    width: 2.59rem;
+    height: 0.37rem;
+
+}
+.reg-log{
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    color: #bbb;
+}
+.reg-log span{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: none;
+}
+.reg-log span.active{
+    border-bottom: solid 1px #fff;
+    color: #fff;
+}
+.reg-list{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.reg-list li{
+
+    width: 100%;
+    overflow: hidden;
+}
+.reg-info,.login-info{
+    width: 100%;
+    overflow: hidden;
+    font-size: 14px;
+    padding-left: 0.5rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.reg-info .inp-padd,.login-info .inp-padd{
+    line-height: 0.28rem;
+}
+
+.reg-info .remi-info,.login-info .remi-info{
+    width: 20%;
+    display: inline-block;
+    line-height: 1.2rem;
+    color: #bbb;
+}
+hr{
+    width: 6.5rem;
+    border-top:0.03rem solid #3e3e47 ;
+    border-left:none;
+    border-right:none;
+    border-bottom:none;
+}
+.send-code{
+    width: 1.9rem;
+    height: 28px;
+    border-radius: 10px;
+    background: #333545;
+    position: absolute;
+    right:0.5rem;
+    top:1.5rem;
+}
+
+#send-code{
+    width: 100%;
+    text-align: center;
+    line-height: 28px;
+    font-size: 12px;
+    color: #f33;
+}
+
+#send-code.active{
+    color: #bbb;
+}
+.reg-info input,.login-info input{
+    width: 73%;
+    line-height: 1.2rem;
+    color: #bbb;
+    font-size: 0.28rem;
+}
+
+
+.agree{
+    width: 6.5rem;
+    line-height: 1.2rem;
+    color: #bbb;
+}
+.agree a{
+    text-decoration:underline;
+}
+#agree-proto{
+    width: 40px;
+}
+#but-reg,#but-log,#btn-confirm{
+    height: 0.88rem;
+    width: 5rem;
+    background: #fff;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 0.88rem;
+    color: #f00;
+    margin-left: 0.92rem;
+    font-size: 16px;
+}
+.forget-pw{
+
+    width: 90%;
+    height: 38px;
+    color: #bbb;
+    text-align: right;
+    line-height: 38px;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------------------------------------findpwback start------------------------------------------------------------*/
+.findpwback {
+    width: 100%;
+    height: 100%;
+    background: #282832;
+    overflow: auto;
+}
+#btn-confirm{
+    margin-top: 1.52rem;
+}
+.more-info{
+    width: 100%;
+    height: 1.1rem;
+    text-align: center;
+    line-height: 1.1rem;
+    color: #999;
+    margin-top: 0.8rem;
+    font-size: 14px;
+}
+
+/*-------------------------------------------------------------findpwback over------------------------------------------------------------*/
+
+/*-------------------------------------------------------------mymcard  start--------------------------------------------------------------*/
+.mymcard,.joinmember{
+    width: 100%;
+    height: 100%;
+    background: #e8e8e8;
+    overflow: hidden;
+}
+.mcard-info{
+    width: 100%;
+    overflow: auto;
+    height: 100%;
+}
+.card-header,.pro-footer{
+    -webkit-align-items: center;
+    align-items: center;
+    width: 100%;
+    height: 0.90rem;
+    background: #fff;
+    display: flex;
+    display:-webkit-flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+}
+.no-edit{
+	width: 100%;
+    height: 0.90rem;
+    background: rgba(0,0,0,0);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    display: none;
+}
+.card-header li,.pro-footer li{
+    width: 1.60rem;
+    text-align: center;
+    background: #fff;
+    border-radius: 12px;
+    color: #333;
+    line-height: 0.58rem;
+    font-size: 0.28rem;
+}
+.pro-footer {
+	    box-shadow: 0 -2px 10px #e9e9e9;
+}
+.card-header li.active,.pro-footer li.active{
+    background: #f33;
+    color: #fff;
+}
+.pers-cont,.com-cont{
+      width: 100%;
+      background: #fff;
+      overflow: hidden;
+  }
+.com-cont{
+    margin-top: 10px;
+}
+.pers-tit,.com-tit{
+     width: 100%;
+     padding: 0 14px;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     height: 0.9rem;
+     line-height: 0.9rem;
+     color: #333;
+     font-size: 14px;
+     position: relative;
+     text-indent: 40px;
+ }
+.com-tit{
+    color: #f33;
+}
+.pers-list{
+    background: #fff;
+}
+
+.pers-list li{
+    padding: 0.36rem 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    border-top: solid 0.021rem #e8e8e8;
+}
+.pers-list li dt{
+    width: 2rem;
+    height: 2rem;
+    float: left;
+    overflow: hidden;
+}
+.pers-list li dt img{
+    width: 100%;
+    /*height: auto;*/
+   min-height: 2.0rem;
+}
+.pers-list li dd{
+    width: 4.50rem;
+    height: 2rem;
+    float: right;
+}
+
+.pers-list li dd .card-name{
+    width: 100%;
+    font-size: 16px;
+    color: #333;
+    line-height: 0.52rem;
+}
+
+.card-name span{
+    width: 50%;
+    line-height: 100%;
+    display: inline-block;
+
+}
+.state-acc{
+    text-align: right;
+    font-size: 0.28rem;
+    color: #f33;
+}
+.state-acc.active{
+    color: #666;
+}
+
+
+.pers-list li dd .pro-price{
+    color: #f33;
+}
+.pers-list li dd .card-time{
+    width: 100%;
+    font-size: 12px;
+    color: #666;
+    line-height: 0.52rem;
+}
+.card-edit{
+    width: 100%;
+    height: 20px;
+}
+.card-edit span{
+    width: 38px;
+    border:solid 1px #666;
+    display: inline-block;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 0.14rem;
+    font-size: 10px;
+    color: #666;
+    margin-top: 0.5rem;
+}
+.share-code{
+    width: 5.8rem;
+    height: 7.16rem;
+    position: absolute;
+    background: #f6f6f6;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    z-index: 999;
+    border-radius: 6px;
+    display: none;
+}
+.share-code img{
+    width: 4.6rem;
+    height: 4.6rem;
+    margin-top: 0.8rem;
+    margin-left: 0.6rem;
+}
+.share-code  p{
+    width: 100%;
+    line-height:1.36rem;
+    font-size: 14px;
+    text-align: center;
+}
+
+/*-------------------------------------------------------------mymcard  over----------------------------------------------------------------*/
+
+/*-------------------------------------------------------------mysinpage  start--------------------------------------------------------------*/
+.mysinpage,.productlib,.setting,.contactprivacy,.accountmanage,
+.enpmanage,.enpcard,.admsetting,.departsetting,.persetting,.membership,.systeminfo,.mcardedit{
+    width: 100%;
+    height: 100%;
+    background: #e8e8e8;
+    overflow: hidden;
+}
+
+
+.uploadgoods{
+	 width: 100%;
+    height: 100%;
+    background: #fff;
+    overflow: hidden;
+}
+
+.enpcardholder{
+    width: 100%;
+    height: 100%;
+    background: #e8e8e8;
+    overflow: auto;
+}
+
+.cardholder{
+    width: 100%;
+    height: 100%;
+    background: #e8e8e8;
+    
+}
+/*-------------------------------------------------------------mysinpage  over--------------------------------------------------------------*/
+
+/*-------------------------------------------------------------productlib  start--------------------------------------------------------------*/
+.pro-footer{
+    position: absolute;
+    left:0;
+    bottom: 0;
+    right: 0;
+}
+
+.upload-goods{
+    width: 5.8rem;
+    height: 9.0rem;
+    background: #fff;
+    border-radius: 0.12rem;
+    position: absolute;
+    top:1.0rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+   
+}
+.upload-img{
+    width: 3rem;
+    height: 3rem;
+    margin: 0.45rem auto 0.18rem;
+    background: #aaa;
+}
+.upload-goods input{
+    width: 5rem;
+    height: 0.9rem;
+    margin: 0 auto;
+    display: block;
+    font-size: 0.24rem;
+    color: #333;
+    border-bottom: solid 0.03rem #333;
+    text-align: center;
+}
+
+#upload-confirm{
+    width: 3rem;
+    height: 0.9rem;
+    text-align: center;
+    border-radius: 0.45rem;
+    border: solid 0.03rem #f33;
+    margin-top: 0.85rem;
+}
+
+/*-------------------------------------------------------------productlib  over--------------------------------------------------------------*/
+
+/*-------------------------------------------------------------cardholader  start--------------------------------------------------------------*/
+.searbyalpha{
+    width: 1.54rem;
+    height: 0.54rem;
+    background: #fff;
+}
+.searbyalpha option{
+    color: #007aff;
+}
+
+/*-------------------------------------------------------------cardholder  start--------------------------------------------------------------*/
+.top-hold{
+    width: 100%;
+    background: #fff;
+    padding: 0.16rem 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 98;
+}
+.top-hold-l{
+    width: 4.42rem;
+    height: 0.56rem;
+    background: #e8e8e8;
+    border-radius: 12px;
+    float: left;
+    position: relative;
+    padding: 0 0.24rem;
+}
+.top-hold-r{
+    width: 1.58rem;
+    height: 0.56rem;
+    float: right;
+    color: #666;
+    position: relative;
+}
+
+.logo-search{
+    width: 16px;
+    height: 100%;
+    float: left;
+}
+.text-search{
+    width: 3.4rem;
+    height: 100%;
+    float: right;
+}
+.but-apha{
+    line-height: 100%;
+    width: 80%;
+    height: 100%;
+    color: #333;
+}
+
+.order-cont{
+    width: 100%;
+    overflow: hidden;
+    overflow: auto;
+    padding: 0 24px 0 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.order-list{
+    width: 100%;
+    overflow: hidden;
+}
+.order-list li,.sort_list{
+    width: 7.0rem;
+    overflow: hidden;
+    height: 3.23rem;
+    position: relative;
+    margin-bottom: 8px;
+    z-index: 97;
+
+}
+.swipe-info{
+    position: absolute;
+    top:0;
+    left:15px;
+    width: 6.72rem;
+    height: 3.2rem;
+    background: #fff;
+    border-radius: 8px;
+    padding:0.44rem 0.24rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    z-index: 999;
+    -webkit-transform:transition3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-transform:translateZ(0);
+}
+
+.order-list li dl,.swipe-info dl{
+    overflow: hidden;
+    position: relative;
+}
+.order-list li dl dt,.swipe-info dl dt{
+    width: 1.2rem;
+    height: 2rem;
+    float: left;
+}
+.img-authen{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+.com-authen{
+    width: 100%;
+    line-height: 0.6rem;
+    font-size: 8px;
+    color: #ffcd00;
+    text-align: center;
+}
+.img-authen img{
+     min-height: 1.2rem;
+     width: 100%;
+}
+.order-list li dl dd,.swipe-info dl dd{
+    width: 4.6rem;
+    height: 2rem;
+    float: right;
+}
+.c-order-name{
+    position: relative;
+    width: 100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    font-size: 17px;
+    color: #333;
+}
+.c-order-job{
+    line-height: 0.46rem;
+    width: 100%;
+    font-size: 12px;
+
+    color: #333;
+}
+.c-order-ename{
+    color: #333;
+}
+.c-order-com{
+    line-height: 0.66rem;
+    width: 100%;
+    color: #666;
+
+}
+.my-card-edit{
+    width: 100%;
+    height: 0.4rem;
+
+    display:-webkit-flex;
+    display:flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+
+}
+.my-card-edit span{
+    width: 1.46rem;
+    line-height: 0.4rem;
+    border-radius: 12px;
+    border: solid 1px #999;
+    color: #999;
+    text-align: center;
+    font-size: 0.20rem;
+}
+
+.initials{
+    width: 0.50rem;
+    overflow: hidden;
+    right: 4px;
+    top: 1.6rem;
+    position: fixed;
+
+}
+
+.pw-null{
+    width: 6.5rem;
+    height: 30px;
+    font-size: 0.30rem;
+    text-align: center;
+    margin: 0 auto;
+    color: #f33;
+    margin-bottom: 6px;
+    display: none;
+}
+
+
+
+.initials ul{
+    width: 100%;
+    overflow: hidden;
+}
+.initials li{
+    width: 100%;
+    height: 0.39rem;
+    line-height: 0.39rem;
+    text-align: center;
+    color: #999;
+}
+.oper-order{
+    width: 6.0rem;
+    overflow: hidden;
+    position: absolute;
+    top:0.1rem;
+    right: 0;
+    border-radius: 10px;
+}
+.oper-order span{
+   padding-right: 0.53rem;
+    text-align: right;
+    width: 100%;
+    display: block;
+    line-height: 0.98rem;
+    border-bottom: solid 1px #fff;
+    background: #535353;
+    font-size: 14px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.group-info{
+    width: 1.84rem;
+    overflow: hidden;
+    position: fixed;
+    right:15px;
+    top:0.86rem;
+    text-align: center;
+    border: solid 1px #ebebeb;
+    background: #fff;
+    border-radius: 0 0 10px 10px;
+    border-top: none;
+    z-index: 999;
+    display: none;
+}
+.group-info li{
+    line-height: 0.72rem;
+    color: #333;
+}
+
+.result{
+    width: 100%;
+    overflow: hidden;
+
+
+}
+.result img{
+    width: 100%;
+    height: auto;
+}
+.file_input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    background: #f33;
+    position: absolute;
+    left:0;
+    top:0;
+    opacity:0;
+    z-index: 1;
+}
+
+.sort_box {
+    width: 100%;
+    padding: 0 24px 0 0px;
+    padding-top: 45px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100%;
+   }
+
+/*-------------------------------------------joinmember start-------------------------------------------------------*/
+.pers-mem,.com-mem{
+    width: 6.70rem;
+    height: 9.96rem;
+    margin: 0.6rem auto;
+    background: #fff;
+    border-radius: 8px;
+    position: relative;
+}
+.cir-box{
+    width: 100%;
+    height: 5.6rem;
+    position: relative;
+}
+.circle-pers{
+    position: absolute;
+    left:0;
+    top:0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: solid 1px #e8e8e8;
+    box-shadow: 0px 0px 25px #eaeaea;
+}
+.circle-pers p:nth-of-type(1){
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 0.92rem;
+    text-align: center;
+    margin-top: 1.05rem;
+}
+.circle-pers p:nth-of-type(2){
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 0.98rem;
+    text-align: center;
+    color:#f33;
+}
+.fee-info{
+    width: 100%;
+    margin: 0.5rem 0;
+}
+.fee-info p{
+    width: 100%;
+    line-height: 0.52rem;
+    text-align: center;
+}
+.fee-info p span{
+    color: #f33;
+}
+.but-next{
+   width: 3rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0.6rem 1.78rem;
+    color: #f33;
+    border: solid 1px #f33;
+    text-align: center;
+    font-size: 14px;
+}
+.com-mem{
+    display: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.com-mem p{
+    width: 100%;
+    text-align: center;
+}
+
+.com-logo{
+    width: 100%;
+    height: 3.67rem;
+    background: #282832;
+    border-radius: 8px 8px 0 0;
+}
+.com-logo img{
+    width: 2.59rem;
+    height: 0.37rem;
+}
+.logoimg{
+    width: 100%;
+   overflow: hidden;
+    padding-top: 1.64rem;
+    padding-left: 2.06rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.com-logo p{
+    width: 100%;
+    line-height: 42px;
+    font-size: 16px;
+    text-align: center;
+    color: #feb300;
+}
+.c-service{
+    margin-top: 1.70rem;
+    font-size: 14px;
+    line-height: 34px;
+    color: #333;
+}
+.c-number{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 43px;
+    color: #333;
+
+}
+/*-------------------------------------------joinmember over-------------------------------------------------------*/
+
+/*--------------iscroll--------------*/
+.main {position: absolute; width: 100%; top: 1.04rem; bottom: 0; left: 0; overflow: hidden }
+.main-sinpage{
+    position: absolute; width: 100%; top: 0; bottom: 0; left: 0; overflow: hidden;
+}
+.new-sinpage{
+    position: absolute; width: 100%; top: 0; bottom: 1.28rem; left: 0; overflow: hidden
+}
+.main-proc{
+    position: absolute; width: 100%; top: 0; bottom: 1.24rem; left: 0; overflow: auto;
+}
+
+
+/*--------------iscroll--------------*/
+/*-------------------------------------------newsinpage start-------------------------------------------------------*/
+
+.viewall{
+	position: absolute; width: 100%; top: 0; bottom: 0; left: 0; overflow:auto;background: #393939;
+}
+
+.newsinpage{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+
+}
+
+.sinpage-info{
+    width: 100%;
+    background: #fff;
+    overflow:   hidden;
+  /*  position: absolute;
+    left: 0;
+    top:0;
+    bottom: 1.26rem;*/
+
+}
+.new-title {
+    width: 100%;
+    height: 1.10rem;
+    text-align: center;
+    color: #ff3333;
+    font-size: 0.44rem;
+}
+.icon{
+    width: 100%;
+    height: 0.53rem;
+}
+.create-time{
+    border-top: solid 1px #999;
+    width: 3rem;
+    height: 0.38rem;
+    line-height: 0.38rem;
+    text-align: center;
+    color: #999;
+    font-size: 0.22rem;
+    margin: 0.25rem auto;
+}
+.page-info{
+    width: 100%;
+    overflow: hidden;
+    padding:15px 15px 0 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+}
+.word-info{
+    color: #333;
+    width: 100%;
+    line-height: 0.56rem;
+    text-align: left;
+    position: relative;
+    left:0;
+    top:0;
+    font-size: 0.28rem;
+    margin-bottom: 15px;
+    z-index: 9;
+    -webkit-user-select:text;
+    border: none;
+    /*-webkit-user-select:all;*/
+    /*-webkit-touch-callout:none;*/
+}
+/*.word-checked{
+    box-shadow: 0px 0px 25px #eaeaea;
+}*/
+.choose-img{
+    /*
+    border: solid 1px #f7ab00;
+    */
+    width: 100%;
+    position: relative;
+    left:0;
+    top:0;
+    color: #333;
+    padding: 1px;
+    margin-bottom: 10px;
+    z-index: 9;
+    text-align: center;
+    /*overflow: hidden;*/
+}
+.release{
+    width: 1.12rem;
+    height: 1.12rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.12rem;
+    font-size: 14px;
+    color: #ff3333;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0.15rem;
+    box-shadow: 0px 0px 25px #eaeaea;
+    background: #fff;
+}
+
+/*-------------------------------------------newsinpage over--------------------------------------------------------*/
+
+/*-------------------------------------------setting start-----------------------------------------------------------*/
+
+.sett-info{
+    width: 100%;
+    overflow: hidden;
+    margin:10px 0;
+    background: #fff;
+
+}
+.sett-info li,.help-info li{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 38px 0 15px;
+    width: 100%;
+    line-height: 0.9rem;
+    border-bottom: solid 1px #e8e8e8;
+    color: #999;
+    display: flex;
+    display:-webkit-flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.sett-info li span{
+    width: 1.75rem;
+    height: 100%;
+}
+.sett-info li span:nth-of-type(2){
+    text-align: right;
+}
+.help-info{
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+/*-------------------------------------------setting over-----------------------------------------------------------*/
+/*------delete--------*/
+.delete-confirm{
+    width: 5.8rem;
+    height: 2.7rem;
+    position: absolute;
+    left:0;
+    top:0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #fff;
+    font-size: 18px;
+    display: none;
+    z-index: 99;
+    border-radius: 5px;
+}
+.delete-confirm p:nth-of-type(1){
+    width: 100%;
+    line-height: 1.80rem;
+    text-align: center;
+    color: #333;
+    border-bottom: solid #e5e5e5 0.021rem;
+}
+.delete-confirm p:nth-of-type(2){
+    width: 100%;
+    color: #1182fe;
+}
+.delete-confirm p:nth-of-type(2) span{
+    width: 50%;
+    line-height: 0.9rem;
+    text-align: center;
+    display: inline-block;
+}
+/*------delete--------*/
+
+.order-tit,.sort_letter{
+    width: 100%;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 18px;
+    text-indent: 20px;
+    color:#787878;
+}
+
+#letter{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    font-size: 75px;
+    color: #555;
+    text-align: center;
+    line-height: 100px;
+    background: rgba(145,145,145,0.6);
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin:-50px 0px 0px -50px;
+    z-index: 999;
+    display: none;
+}
+
+/*-------------------------------------------accountmanage start-----------------------------------------------------------*/
+.account-info ,.enp-info{
+    width: 100%;
+    overflow: hidden;
+    padding: 0.34rem 15px;
+    background: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #333;
+    border-bottom: solid 0.021rem #e8e8e8;
+}
+.account-info a,.enp-info a{
+    width: 100%;
+    overflow: hidden;
+}
+.account-info dl,.enp-info dl{
+    width:100% ;
+    overflow: hidden;
+}
+.account-info dt,.enp-info dt{
+    box-shadow: 0px 0px 25px #d4d4d4;
+    width:1rem ;
+    float: left;
+    height: 1rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.account-info dt img,.enp-info dt img{
+    width: 100%;
+    height: auto;
+}
+.account-info dd,.enp-info dd{
+    width:5.6rem ;
+    float: right;
+    height: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+.acc-name{
+    font-size: 0.34rem;
+    line-height: 0.46rem;
+}
+.acc-tel{
+    margin-top: 0.13rem;
+    font-size: 0.30rem;
+    line-height: 0.40rem;
+}
+.acc-com{
+    font-size: 0.32rem;
+    line-height: 1.0rem;
+}
+.unbind{
+    width: 100%;
+    line-height: 0.9rem;
+    font-size: 0.28rem;
+    margin-top: 0.2rem;background: #fff;
+    text-indent: 15px;
+    color: #333;
+
+}
+
+/*-------------------------------------------accountmanage over-----------------------------------------------------------*/
+
+
+/*-------------------------------------------changetel start-----------------------------------------------------------*/
+
+.changetel{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.phone-logo{
+    width: 1.2rem;
+    /* height: 2.56rem; */
+    margin: 2.0rem auto 0.86rem;
+    display: block;
+}
+.bind-phone{
+    font-size: 0.28rem;
+    color: #333;
+    line-height: 0.48rem;
+    text-align: center;
+}
+.bind-num{
+    font-size: 0.38rem;
+    color: #333;
+    line-height: 1.38rem;
+    text-align: center;
+}
+#change-num,#change-sub{
+    width: 5.0rem;
+    height: 0.90rem;
+    border: solid 1px #f33;
+    border-radius: 0.45rem;
+    text-align: center;
+    line-height: 0.9rem;
+    color: #f33;
+    margin: 1.5rem auto;
+    display: block;
+}
+.add-info{
+    font-size: 0.23rem;
+    color: #999;
+    width: 100%;
+    text-align: center;
+    margin-top: 2.0rem;
+}
+.unbind-bef,.unbind-aft{
+    width: 100%;
+    overflow: hidden;
+
+}
+.unbind-aft{
+    padding: 0 0.50rem;
+    display: none;
+    position: relative;
+}
+.unbind-aft input{
+    width: 80%;
+    margin: 0 auto;
+    line-height: 0.28rem;
+    font-size: 0.28rem;
+    color: #333;
+}
+.unbind-aft .remi-info{
+    width: 20%;
+    display: inline-block;
+    line-height: 1.2rem;
+    color: #333;
+}
+
+.bind-code{
+    background: #ddd;
+    color: #333;
+    border-radius: 0.25rem;
+    width: 1.9rem;
+    height: 28px;
+    position: absolute;
+    right:0.5rem;
+    top:1.5rem;
+}
+#bind-code{
+    width: 100%;
+    text-align: center;
+    line-height: 28px;
+    font-size: 12px;
+    color: #333;
+}
+#bind-code.active{
+    width: 100%;
+    text-align: center;
+    line-height: 28px;
+    font-size: 12px;
+    color: #999;
+}
+
+
+/*-------------------------------------------changetel over-----------------------------------------------------------*/
+
+/*-------------------------------------------vipmember start-----------------------------------------------------------*/
+
+.vipmember p{
+    width: 100%;
+    text-align: center;
+    color: #333;
+}
+
+.vipm-logo{
+    display: block;
+    width: 2.59rem;
+    height: 0.37rem;
+    margin: 1.22rem auto 0;
+}
+.vip-logo{
+    width: 1.16rem;
+    height: 1.16rem;
+    border-radius: 50%;
+    margin: 0.64rem auto 0;
+    overflow: hidden;
+}
+.vip-logo img{
+    width: 100%;
+    height: auto;
+}
+.vip-name{
+    font-size: 0.46rem;
+    line-height: 1.06rem;
+}
+#mem-fee{
+    width: 5.0rem;
+    height: 0.90rem;
+    border: solid 0.021rem #f33;
+    border-radius: 0.45rem;
+    text-align: center;
+    line-height: 0.9rem;
+    color: #f33;
+    margin: 1.16rem auto 0;
+    display: block;
+ }
+.purtit{
+    width: 100%;
+    font-size: 0.20rem;
+    line-height: 0.60rem;
+    margin-top: 0.6rem;
+}
+.pur-history span{
+    color: #666;
+}
+.pur-history p {
+    line-height: 0.40rem;
+}
+/*-------------------------------------------vipmember over-----------------------------------------------------------*/
+
+/*-------------------------------------------admsetting start-----------------------------------------------------------*/
+.adm-list{
+    width: 100%;
+    overflow: hidden;
+    display:-webkit-flex;
+    display:flex;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+    color: #333;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.adm-list li{
+    width: 1.22rem;
+  /*  overflow: hidden;*/
+    padding-top: 0.5rem;
+    margin: 0 10px;
+}
+
+.adm-list li p{
+    width: 100%;
+    text-align: center;
+}
+.adm-name{
+    font-size: 0.28rem;
+    line-height: 0.52rem;
+}
+.adm-depart{
+    font-size: 0.24rem;
+    color: #666;
+}
+
+.add-icon{
+    position: relative;
+    width: 1.22rem;
+    height: 1.22rem;
+    border-radius: 0.20rem;
+    border: solid #999 1px;
+    background: #fff;
+}
+.addadm{
+    color: #333;
+}
+/*-------------------------------------------admsetting over-----------------------------------------------------------*/
+.del-dep{
+    width: 150px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+
+.depart-info .del-dep span{
+    display: inline-block;
+    width: 50%;
+    line-height: 0.86rem;
+    float: left;
+    text-align: center;
+    height: 100%;
+    color: #fff;
+}
+.del-dep span:nth-of-type(1){
+    background: #999;
+}
+.del-dep span:nth-of-type(2){
+    background: #f33;
+}
+
+.depart-info{
+    width: 100%;
+    overflow: hidden;
+    margin:10px 0;
+    background: #fff;
+}
+
+.depart-info li{
+    width: 100%;
+    height: 0.9rem;
+    border-bottom: solid 0.021rem #e8e8e8;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #999;
+    position: relative;
+}
+.depart-name{
+    width: 100%;
+    height: 100%;
+    text-indent: 15px;
+    z-index: 9;
+    position: absolute;
+    left:0;
+    top:0;
+    line-height: 0.86rem;
+    background: #fff;
+}
+.aftClick ul:nth-of-type(2){
+    display: none;
+}
+/*-------------------------------------------enpcardholder start-----------------------------------------------------------*/
+.enp-list{
+    width: 100%;
+    overflow: hidden;
+}
+.enp-list li{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 1.71rem;
+}
+.enp-delete{
+    position: absolute;
+    right: 0;
+    top:0;
+    width: 74px;
+    height: 100%;
+    background: #f33;
+    text-align: center;
+    font-size: 0.28rem;
+    line-height: 1.7rem;
+    color: #fff;
+}
+.enp-info{
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: 9;
+    height: 100%;
+}
+
+/*-------------------------------------------enpcardholder over-----------------------------------------------------------*/
+.tag-manege{
+   width: 5.82rem;
+    height: 8.0rem;
+    background: #fff;
+    border-radius: 0.12rem;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 100;
+    display: none;
+}
+.tag-title{
+    line-height: 1.38rem;
+    font-size: 0.30rem;
+    color: #f33;
+    text-align: center;
+}
+.tag-list{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    display:-webkit-flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+}
+.tag-list li{
+    width: 1.84rem;
+    height: 0.46rem;
+    font-size: 0.20rem;
+    text-align: center;
+    border-radius: 0.23rem;
+    color: #333;
+    border: solid 0.021rem #333333;
+    margin: 0.20rem 0.06rem;
+    position: relative;
+}
+.add-tag {
+    width: 4.0rem;
+    height: 0.6rem;
+    margin: 1.60rem auto 0.48rem;
+    text-align: center;
+    line-height: 0.6rem;
+    font-size: 0.28rem;
+    color: #999;
+    border-radius: 0.3rem;
+    border: solid 0.021rem #333;
+    display: block;
+}
+.add-det{
+    width: 3.0rem;
+    height: 0.9rem;
+    text-align: center;
+    line-height: 0.9rem;
+    font-size: 0.32rem;
+    color: #f33;
+    border-radius: 0.45rem;
+    border: solid 0.021rem #f33;
+    display: block;
+    margin: 0 auto;
+
+}
+/*-------------------------------------------membership start-----------------------------------------------------------*/
+.memship-info{
+    width: 6.72rem;
+    height: 10.98rem;
+    background: #fff;
+    position: absolute;
+    bottom:0;
+    top:0;
+    left:0;
+    right: 0;
+    margin: auto;
+    border-radius: 0.20rem;
+
+}
+.memship-name{
+    width: 1.6rem;
+    height: 0.58rem;
+    background: #f33;
+    border-radius: 0.29rem;
+    color: #fff;
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.58rem;
+    margin:0.6rem auto 0;
+}
+
+/*-------------------------------------------membership over-----------------------------------------------------------*/
+
+/*-------------------------------------------systeminfo start-----------------------------------------------------------*/
+.main-sysinfo{
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top:0.20rem;
+}
+
+.news-info{
+    display: inline-block;
+    width: 5.72rem;
+    height: 0.36rem;
+    font-size: 0.28rem;
+    line-height: 0.36rem;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    margin-left: 0.9rem;
+}
+.sysinfo-list li{
+    width: 100%;
+    overflow: hidden;
+    border-bottom: solid 0.021px #e8e8e8;
+    padding: 0.28rem 0.85rem 0.28rem 0rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.sys-footer{
+    width: 100%;
+    height: 0.90rem;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: #f33;
+    font-size: 0.28rem;
+    padding:0 0.3rem ;
+   
+}
+.sys-choose{
+	width: 100%;
+    height: 0.90rem;
+    text-align: center;
+    line-height: 0.90rem;
+   
+}
+.all-choose{
+	width: 3.24rem;
+	line-height: 0.90rem;
+	display: inline-block;
+	float: left;
+}
+.news-read,.news-del{
+	width: 1.58rem;
+	height: 0.56rem;
+	background: #f33;
+	color: #fff;
+	line-height: 0.56rem;
+	text-align: center;
+	display: inline-block;
+	border-radius: 0.28rem;
+	margin-top: 0.18rem;
+}
+.news-read{
+	float: left;
+}
+.news-del{
+	float: right;
+}
+.news-info-active{
+    display: inline-block;
+    width: 5.72rem;
+    font-size: 0.28rem;
+    line-height: 0.36rem;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    margin-left: 0.9rem;
+}
+
+
+
+/*-------------------------------------------systeminfo over-----------------------------------------------------------*/
+
+
+/*-------------------------------------------template start-----------------------------------------------------------*/
+.page_title{
+
+    width: 100%;
+    height: 100%;
+    background: url("../img/tem-bg.jpg") no-repeat;
+    background-size: 100% 100%;
+    padding-top: 0.9rem;
+}
+.title-info{
+    width: 6.30rem;
+    height: 9.84rem;
+    margin: 0.2rem auto 0;
+    position: relative;
+}
+.img-wrap{
+	width: 1.88rem;
+	padding-top: 0.54rem;
+	padding-left: 0.38rem;
+	overflow: hidden;
+	padding-bottom: 1.14rem;
+}
+.img-wrap img{
+	width: 1.50rem;
+	height: 0.68rem;
+}
+.intemp-info{
+	width: 100%;
+	height: 6.20rem;
+	background: url(../img/intempbg.png) no-repeat;
+	background-size: 100% 100%;
+	padding-top: 1.70rem;
+	padding-left: 0.65rem;
+}
+.indate-list{
+	
+}
+.indate-list dt{
+	width: 2.15rem;
+	height: 2.15rem;
+	float: left;
+	overflow: hidden;
+}
+.indate-list dt img{
+	width: 100%;
+	min-height: 2.15rem;
+}
+
+.indate-list dd{
+	width: 3.44;
+	float: left;
+	padding-left: 0.16rem;
+}
+.indata-name{
+	width: 100%;
+	font-size: 0.46rem;
+	line-height: 0.50rem;
+	height: 0.50rem;
+	color: #161619;
+	 overflow: hidden;
+    line-height: 0.48rem;
+     -webkit-user-select:text;
+    border: none;
+      text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.indata-job{
+	width: 100%;
+	font-size: 0.28rem;
+	line-height: 0.76rem;
+	height: 0.76rem;
+	color: #333;
+	 overflow: hidden;
+    line-height: 0.48rem;
+     -webkit-user-select:text;
+    border: none;
+      text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.indata-job{width: 100%;font-size: 0.28rem;line-height: 0.76rem;height: 0.76rem;color: #333;overflow: hidden;line-height: 0.48rem;-webkit-user-select:text; border: none;text-overflow: ellipsis;white-space: nowrap;
+}
+.indata-com{width: 100%;color: #999;font-size: 0.22rem;margin-top: 1.78rem;overflow: hidden;line-height: 0.48rem;-webkit-user-select:text;border: none;height: 0.22rem;line-height: 0.22rem;text-overflow: ellipsis;white-space: nowrap;
+}
+.title-info img,.multiple-info img,.slogan-info img,.intro-info img{
+    width: 100%;
+    height: 100%;
+}
+.readme{
+    position: absolute;
+    width: 2.56rem;
+    height: 0.48rem;
+    left: 1.52rem;
+    top: 1.30rem;
+    color: #333;
+    font-size: 0.48rem;
+    overflow: hidden;
+    line-height: 0.48rem;
+     -webkit-user-select:text;
+    border: none;
+}
+.detail-info{
+    width: 5.2rem;
+    height: 3.9rem;
+    position: absolute;
+    left: 0.66rem;
+    top: 3.96rem;
+    font-size: 0.24rem;
+    line-height: 0.44rem;
+    color: #fff;
+    overflow: hidden;
+     -webkit-user-select:text;
+}
+.multiple-info{
+    width: 6.14rem;
+    height: 9.44rem;
+    margin: 0rem auto 0;
+    position: relative;
+}
+.mul-info{
+    position: absolute;
+    left: 1.70rem;
+    top: 3.2rem;
+    width: 3.90rem;
+    overflow: hidden;
+   
+
+}
+.mul-job{
+    width: 100%;
+    font-size: 0.30rem;
+    line-height: 0.40rem;
+    margin-top: 0.24rem;
+    color: #333;
+     -webkit-user-select:text;
+   text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.mul-com{
+    width: 100%;
+    font-size: 0.22rem;
+    line-height: 0.40rem;
+    color: #333;
+    -webkit-user-select:text;
+   text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.slogan-info{
+    width: 4.73rem;
+    height: 4.79rem;
+    margin: 2.98rem auto 0;
+    position: relative;
+}
+
+.slostore-info{
+    position: absolute;
+    left: 0rem;
+    top: 1.98rem;
+    width: 100%;
+    overflow: hidden;
+}
+.slogan-title{
+	 width: 100%;
+    text-align: center;
+    color: #f7ab00;
+    font-size: 0.54rem;
+    line-height: 0.54rem;
+    -webkit-user-select:text;
+   text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.slogan-edit{
+	 width: 100%;
+    text-align: center;
+    color: #f7ab00;
+    font-size: 0.24rem;
+    line-height: 0.24rem;
+    margin-top: 0.16rem;
+    -webkit-user-select:text;
+   text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.intro-info{
+    width: 5.70rem;
+    height: 9.46rem;
+    margin: 1.14rem auto 0;
+    position: relative;
+}
+.intro-com{
+    width: 4.94rem;
+    position: absolute;
+    left: 0.40rem;
+    top: 1.26rem;
+    overflow: hidden;
+}
+.intro-logo{
+    width: 1.45rem;
+    height: 1.45rem;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.intro-logo img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+
+}
+.intro-name{
+    width: 100%;
+    text-align: center;
+    font-size: 0.24rem;
+    line-height: 0.88rem;
+    color: #fff;
+    -webkit-user-select:text;
+   text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.comintro{
+    width: 100%;
+    text-align: center;
+    font-size: 0.30rem;
+    line-height: 0.30rem;
+    color: #fff;
+    margin-top: 0.24rem;
+}
+.detail-intro{
+    margin-top: 0.24rem;
+    width: 100%;
+    height: 4.5rem;
+    font-size: 0.20rem;
+    line-height: 0.30rem;
+    color: #fff;
+     -webkit-user-select:text;
+    overflow: hidden;
+}
+.timeline-info{
+    width: 6.50rem;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.timeline-info img{
+    width: 0.60rem;
+    height: auto;
+    margin: 0 auto 0;
+    display: block;
+}
+.step-first{
+    width: 2.88rem;
+    height: 1.52rem;
+    position: absolute;
+    left: 3.63rem;
+    top:0.83rem;
+}
+.step-first .time-info{
+    width: 2.28rem;
+    height: 0.56rem;
+    background: #f7ab00;
+    font-size: 0.28rem;
+    line-height: 0.56rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 0.28rem;
+      -webkit-user-select:text;
+   text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.step-first .com-event{
+    width: 100%;
+    height: 0.92rem;
+    font-size: 0.20rem;
+    line-height: 0.30rem;
+    margin-top: 0.16rem;
+    color: #f7ab00;
+      -webkit-user-select:text;
+    overflow: hidden;
+
+}
+.step-third{
+    position: absolute;
+    left: 3.63rem;
+    top:4.44rem;
+}
+.step-fifth{
+    position: absolute;
+    left: 3.63rem;
+    top:8.0rem;
+}
+.step-second{
+    position: absolute;
+    left: 0;
+    top:2.64rem;
+}
+.step-second .time-info,.step-forth .time-info,.step-sixth .time-info{
+    float: right;
+}
+.step-forth{
+    position: absolute;
+    left: 0;
+    top:6.22rem;
+}
+.step-sixth{
+    position: absolute;
+    left: 0;
+    top:9.82rem;
+}
+.end-comname{
+    width: 100%;
+    font-size: 0.52rem;
+    height: 0.52rem;
+    line-height: 0.52rem;
+    color: #f7ab00;
+    text-align: center;
+    margin: 2.42rem auto 0;
+    -webkit-user-select:text;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.end-info{
+    width: 100%;
+    height: 2.90rem;
+    margin-top: 1.76rem;
+    padding-left: 1.58rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+.end-info .info-wrap{
+	height: 0.40rem;
+}
+.endinfo-name{
+    width: 4.57rem;
+    line-height: 0.76rem;
+    height: 0.76rem;
+    overflow: hidden;
+    color: #f7ab00;
+     -webkit-user-select:text;
+   text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.end-info span{
+	color: #f7ab00;
+	line-height: 0.40rem;
+	width: 0.94rem;
+	float: left;
+}
+
+.end-info .tit-info{
+    color: #f7ab00;
+    width: 4.2rem;
+    display: inline-block;
+     -webkit-user-select:text;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 0.40rem;
+}
+
+
+
+.store-info{
+    width: 6.43rem;
+    margin-left: 0.80rem;
+    margin-top: 0.7rem;
+    overflow: hidden;
+    position: relative;
+}
+.pro-dispeng{
+    font-size: 0.40rem;
+    line-height: 0.62rem;
+    color: #f7ab00;
+}
+.pro-disp{
+    font-size: 0.32rem;
+    line-height: 0.44rem;
+    color: #f7ab00;
+    margin-bottom: 0.2rem;
+}
+.pro-info{
+    width: 5.12rem;
+    height: 2.34rem;
+    margin-top: 0.36rem;
+}
+.proinfo-l{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: #fff;
+}
+.proinfo-r{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: #f7ab00;
+}
+.proinfo-r .proinfo-wrap{
+    color: #fff;
+    padding-left: 0.10rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 0.10rem;
+    -webkit-user-select:text;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.proinfo-r div:nth-of-type(1){
+    font-size: 0.32rem;
+    line-height: 0.40rem;
+}
+.proinfo-r div:nth-of-type(2){
+    font-size: 0.24rem;
+    line-height: 0.30rem;
+}
+.proinfo-r div:nth-of-type(3){
+    font-size: 0.24rem;
+    line-height: 0.76rem;
+}
+.proinfo-r input{
+    font-size: 0.34rem;
+    line-height: 0.34rem;
+    text-align: left;
+    color: #151514;
+    padding-left: 0.1rem;
+}
+.pro-second{
+    margin-left: 1.30rem;
+}
+
+
+/*-------------------------------------------template over-----------------------------------------------------------*/
+
+
+/*-------------------------------------------mcardedit start-----------------------------------------------------------*/
+
+.data-list{
+	
+	width: 100%;
+	overflow: hidden;
+	background: #fff;
+	
+}
+.data-list li{
+	padding: 0 0.3rem 0 0.6rem;
+	width: 100%;
+	height: 0.9rem;
+	border-bottom: solid 1px #E8E8E8;
+}
+.data-list li span{
+	width: 25%;
+	height: 100%;
+	line-height: 0.9rem;
+	color: #999;
+	font-size: 0.28rem;
+	display: inline-block;
+}
+
+.data-list li input{
+	width: 75%;
+	height: 100%;
+	line-height: 0.9rem;
+	color: #999;
+	font-size: 0.28rem;
+	display: inline-block;
+}
+
+
+.save-data{
+	width: 3rem;
+	height: 0.88rem;
+	background: #fff;
+	border-radius: 0.44rem;
+	color: #f33;
+	line-height: 0.88rem;
+	text-align: center;
+	border: solid 1px #f33;
+	margin: 0.6rem auto 0.6rem;
+	display: block;
+}
+
+.mcard-data{
+	margin-bottom: 0.98rem;
+	width: 100%;
+	overflow: auto;
+	background: #fff;
+	
+}
+.photo-pos{
+	width: 1.60rem;
+	margin-right: 0.82rem;
+	float: left;
+	overflow: hidden;
+}
+.photo_wrap{
+	width: 1.60rem;
+	height: 1.6rem;
+	overflow: hidden;
+	border: solid 0.06rem #ff6f91;
+	background: #fff;
+	border-radius: 50%;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+   
+}
+.photo_wrap .sp_box{
+	 display:table-cell;
+    vertical-align:middle;
+    line-height: 1.48rem;
+}
+
+.photo-pos img{
+	width: 100%;
+  vertical-align: middle;
+    line-height: 1.48rem;
+    height: auto;
+}
+
+
+.photo-pos .logo_box{
+	display: block;
+	width: 100%;
+	line-height: 1.20rem;
+	text-align: center;
+	font-size: 0.28rem;
+	color: #fff;
+}
+
+.logo-edit{
+	width: 100%;
+	padding-top: 0.28rem;
+	padding-left: 1.72rem;
+	height: 3.08rem;
+	background: #f33;
+}
+
+.white-space{
+	width: 100%;
+	height: 0.26rem;
+	background: #E8E8E8;
+}
+
+/*-------------------------------------------mcardedit over-----------------------------------------------------------*/
+
+/*-------------------------------------------mcardedit-theme start-----------------------------------------------------------*/
+.mcard-theme .swiper-container2{
+    width:100%;
+    height: 9.69rem;
+    margin-top: 0.48rem;
+}
+
+#swiper-container2 .swiper-slide2{
+    width: 6.0rem;
+    height: 100%;
+    background: #999;
+    line-height: 9.69rem;
+    text-align: center;
+    color: #fff;
+
+}
+.swiper-box{
+	width:100%;
+    height: 1.0rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    overflow: hidden;
+}
+#swiper-container3{
+	width: 7.5rem;
+	height: 100%;
+}
+
+
+#swiper-container3 .swiper-slide{
+	width: 1.87rem;
+	text-align: center;
+	line-height: 1.0rem;
+	font-size: 0.28rem;
+	color: #333;
+}
+#swiper-container3 .swiper-slide.active{
+	border-bottom: solid 2px #f33;
+	color: #f33;
+}
+
+.theme-footer{
+    position: absolute;
+    left:0;
+    bottom: 0px;
+    height: 20px;
+    width: 100%;
+}
+
+.chooseBg{
+    position: absolute;
+    left:0;
+    bottom:0.58rem;
+    width: 100%;
+    height: 3.6rem;
+    background:rgba(40,40,40,.3);
+    z-index: 99;
+    display: none;
+    overflow: hidden;
+   
+}
+
+.the-edit{
+	position: absolute;
+    left:0;
+    bottom:0.58rem;
+    color: #fff;
+    width: 6.0rem;
+    color: #fff;
+    right: 0;
+    margin: auto;
+    display: none;
+}
+.the-edit span{
+	width: 3.0rem;
+	height: 100%;
+	display: inline-block;
+	text-align: center;
+	font-size: 0.28rem;
+}
+
+.swiper-container1{
+    width: 100%;
+    height: 100%;
+    padding:0.44rem 0;
+}
+.swiper-container1 .swiper-slide {
+    width: 1.72rem;
+    height:2.76rem;
+    background: #484848;
+    position: relative;
+    left: 0;
+    top: 0; 
+    line-height: 2.76rem;
+    color: #fff;
+    text-align: center;
+    border: solid 1px #fff;
+}
+
+.swiper-container1 .swiper-slide img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.mcard-theme{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0.58rem;
+	background: #393939;
+	display: none;
+}
+
+
+.themeCont{
+    width:100%;
+
+    background:  #393939;
+    display: none;
+    height: 100%;
+}
+
+.themeCont-list{
+    width: 100%;
+    flex-wrap: wrap;
+    background: #393939;
+    padding: 0 0.21rem;
+    /* padding-top: 0.86rem; */
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /* overflow: auto; */
+    position: absolute;
+    left: 0;
+    top: 0.84rem;
+    bottom: 1.0rem;
+    overflow: auto;
+}
+
+.themeCont-list li{
+    width:3.25rem;
+    margin-bottom: 0.30rem;
+    overflow: hidden;
+    float: left;
+    margin: 0 0.14rem;
+}
+.themeCont-list li img{
+	width: 100%;
+	min-height: 5.17rem;
+	
+}
+.theme-comfirm{
+	
+	color: #fff;
+	height: 0.84rem;
+	width: 1.5rem;
+	float: right;
+	line-height: 0.84rem;
+	text-align: center;
+	font-size: 14px;
+}
+.themeIfr{
+    width: 100%;
+    height: 100%;
+	border:none;
+}
+/*-------------------------------------------mcardedit-theme over-----------------------------------------------------------*/
+
+
+/*-------------------------------------------historyrecord start-----------------------------------------------------------*/
+.historyrecord{
+	position: absolute;
+	left: 0;
+	top:0;
+	right: 0;
+	bottom: 0;
+	background: #fff;
+	padding: 0 0.3rem;
+}
+
+.his-info{
+	width: 100%;
+	overflow: hidden;
+	
+}
+
+.his-info dt{
+	padding: 0.43rem 0;
+	width: 2.14rem;
+	float: left;
+}
+
+.his-pic{
+	width: 1.05rem;
+	height: 1.05rem;
+	border-radius: 50%;
+	border: solid 1px #ccc;
+	overflow: hidden;
+	float: left;
+}
+
+.his-pic img{
+	min-height: 1.05rem;
+	width: 100%;
+}
+
+.his-info dt span{
+	line-height: 1.05rem;
+	width: 1.08rem;
+	color: #333;
+	font-size: 0.20rem;
+	float: left;
+	height: 1.05rem;
+	text-align: center;
+}
+
+.his-info dd{
+	position: relative;
+	width: 4.18rem;
+	height: 1.92rem;
+	border-left: solid 0.06rem #333;
+	float: left;
+	padding-left: 0.56rem;
+}
+
+.his-name{
+	margin-top: 0.54rem;
+	color: #333;
+	width: 100%;
+	overflow: hidden;
+}
+.his-name span:nth-of-type(1){
+	font-size: 0.34rem;
+	width: 1.58rem;
+	float: left;
+}
+.his-name span:nth-of-type(2){
+	font-size: 0.22rem;
+	line-height: 0.34rem;
+	width: 1.54rem;
+	float: left;
+}
+.his-forename{
+	font-size: 0.18rem;
+	line-height: 0.26rem;
+}
+.his-com{
+	font-size: 0.22rem;
+	width: 100%;
+	line-height: 0.30rem;
+}
+
+.black-dot{
+	width: 0.40rem;
+	height: 0.40rem;
+	border-radius: 50%;
+	background: #333;
+	position: absolute;
+	left: -0.24rem;
+	top: 0.76rem;
+	border: solid 0.06rem #d4d4d4;
+}
+/*-------------------------------------------historyrecord over-----------------------------------------------------------*/
+.ope-swip,.page-swipe{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 9;
+	background: rgba(0,0,0,0);
+}
+
+#wrapper {
+	
+    display: none;
+   
+}
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	/*width: 500px;*/
+	height: 100%;
+	padding: 0.44rem 0;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+	padding-left: 30px;
+	
+}
+
+.all_page{
+	position: absolute;
+    left:0;
+    bottom:0.58rem;
+    width: 100%;
+    height: 3.6rem;
+    background:rgba(40,40,40,.3);
+    z-index: 99;
+    display: none;
+    overflow: hidden;
+}
+
+
+#scroller ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 138px;
+	text-align: center;
+	position: relative;
+}
+
+#scroller li {
+	display: block;
+	float: left;
+	width: 86px;
+	height: 138px;
+	font-size: 14px;
+	position: absolute;
+}
+#scroller li img{
+
+	width: 100%;
+	height: 100%;
+	
+}
+.page-del{
+	width: 0.4rem;
+	height: 0.4rem;
+	border-radius: 50%;
+	background: #f00;
+    position: absolute;
+    right: -0.2rem;
+    top: -0.2rem;
+    color: #fff;
+    z-index: 9999;
+        text-align: center;
+    line-height: 0.4rem;
+}
+.page-delete{
+	width: 0.4rem;
+	height: 0.4rem;
+	border-radius: 50%;
+	background: #f00;
+    position: absolute;
+    right: -0.3rem;
+    top: -0.3rem;
+    color: #fff;
+    z-index: 9999;
+        text-align: center;
+    line-height: 0.4rem;
+}
+
+.goods-wrap{
+	z-index: 999;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.7);
+    display: none;
+}
+.goods-box{
+	position: absolute;
+	background: #f6f6f6;
+	width: 5.80rem;
+	height: 9.86rem;
+	top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    border-radius: 0.1rem;
+    
+}
+
+.goods-list{
+	
+	width: 5.80rem;
+	height: 8.96rem;
+    overflow: auto;
+}
+.goods-list li{
+	width: 5.20rem;
+	height: 1.7rem;
+	border: solid 0.01rem #e0e0e1;
+	margin: 0.4rem auto 0;
+	border-radius: 0.20rem;
+	padding-top: 0.26rem;
+}
+.goods-img{
+	width: 1.2rem;
+	height: 1.2rem;
+	float: left;
+	border: solid 0.02rem #f1f1f1;
+	margin-left: 0.28rem;
+	margin-right: 0.22rem;
+	overflow: hidden;
+}
+
+.goods-img img{
+	width: 100%;
+	min-height: 1.2rem;
+	
+}
+.goods-name{
+	width: 3.26rem;
+	height: 1.2rem;
+	line-height: 1.2rem;
+	float: left;
+	font-size: 0.34rem;
+	color: #333;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+.up-sure{
+	width: 100%;
+	height: 0.9rem;
+	font-size: 0.34rem;
+	text-align: center;
+	line-height: 0.9rem;
+	color: #f33;
+	background: #eee;
+
+}
