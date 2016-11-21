@@ -1,7 +1,0 @@
-/**
- * Created by maxiaomei1399@163.com on 16/8/25.
- */
-angular.module("myapp")
-    .controller("settingCtrl",function($scope){
-
-    })
